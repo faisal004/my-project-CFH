@@ -7,9 +7,7 @@ import { providers } from "ethers";
 const Navbar = () => {
   const [walletconnected, setWalletconnected] = useState(false);
   const web3ModalRef = useRef();
-  const [address, setAddress] = useState("")
-  const [ens, setENS] = useState("");
-
+ 
 
 
   const getProviderOrSigner = async (needSigner = false) => {
